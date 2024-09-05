@@ -1,0 +1,43 @@
+section .heading .desc{
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: rgb(32, 26, 26);
+    
+}
+
+section .container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.about .items{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem;
+    padding: 2rem 0rem;
+
+}
+
+.about .items .item{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   overflow: hidden;
+}
+
+
+.about .items .item .image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

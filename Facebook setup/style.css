@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background-color: #f0f0f0;
+    background: none;
+
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+
+}
+
+input[type='text'], input[type='password']{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+     border-radius: 5px;
+     text-align: center;
+     color: black;
+     font-family: 'sagoe uI';
+     font-size: 15PX;
+
+
+}
+
+button{
+    border: none;
+    height: 33px;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px o;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family: 'sagoe uI';
+    font-weight: 400;
+}
+
+.line{
+    border-top: 3px solid #222;
+    opacity: 0.2;
+}
+.btn2{
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+}
+
+.sub-link h3{
+    width: 270px;
+    position:relative;
+    color: black;
+    font-family: 'sagoe uI',Arial;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-link h3 a{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.f-container{
+    width: 350px;
+    margin-right: 300px;
+    margin-top: 30vh;
+    font-family: 'sagoe uI',Roboto, "san Francisco";
+}
+
+.f-container img{
+    width: 300px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
+}

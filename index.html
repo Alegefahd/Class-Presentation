@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train station website</title>
+    <link rel="stylesheet" href="https">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="faicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo"> 
+                    <div class="menue"> 
+                    <i class="fa-solid fa-bars" ></i></div>
+                    <i class="fa-solid fa-train"></i>
+                    <span>Express<strong>Train</strong></span>
+                </div>
+                <div class="navigation">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="services/index.html" class="nav-link">Services</a>
+                    <a href="about/index.html" class="nav-link">About</a>
+                    <a href="booking timetable/index.html" class="nav-link">Booking Time Table</a>
+                </div>
+
+                <div class="controls">          
+                    <div class="icon"><i class="fa fa-search"></i></div>
+                    <div class="icon"><i class="fa fa-user-alt"></i></div>
+                    <a   class="btn" href="signup form/index.html">Sign Up</a>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    
+    <div class="content ">
+        <div class="head scroll-t">
+            <h1>Express Train</h1>
+            <h5 class="subtitle">
+                We do offer best offer to you ,cheap and save train travel, let us to know what you need exactly that's best 
+                chalange for us.
+            </h5>
+        </div>
+
+        <div class="booking-box">
+            <div class="options">
+                <div class="option active">
+                    <span>Express</span>
+                </div>
+                <div class="option">
+                    <span>Local</span>
+                </div>
+                <div class="option">
+                    <span>Suburban</span>
+                </div>
+            </div>
+            <div class="form">
+                <div class="line">
+                    <div class="box">
+                        <label for="arrival">from</label>
+                        <input type="text" id="arrival" placeholder="arrival...">
+                    </div>
+                    <div class="box">
+                        <label for="departure">to</label>
+                        <input type="text" id="departure" placeholder="departure...">
+                    </div>
+                    <div class="box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@.com">
+                    </div>
+                    <div class="box">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" placeholder="">
+                    </div>
+                </div>
+                <div class="line-r">
+                    <button  onclick="hideUnhide('paragraph1')" class="btn">Buy</button>
+                    <marquee id="paragraph1">kindly, fill the given form to recieve your train ticket through your email.</marquee>
+
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="items">
+                <div class="item scroll-t">
+                   <div class="image">
+                    <img src="phone 4.jpg" alt="">
+            </div>
+          </div> 
+          <div class="item scroll-t">
+            <h2 class="title">Easy way to your next destination</h2>
+            <div class="desc">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae quod dolorum accusamus ad optio? Cum, 
+                    labore maiores! Quasi exercitationem sapiente optio inventore libero dolorem atque officiis fuga, accusantium suscipit.
+                </p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit facilis odio aut ipsum expedita maiores,
+                             eius quia? Rem nostrum magnam facere, molestias eaque corporis aspernatur velit error commodi odit.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit facilis odio aut ipsum expedita maiores,
+                             eius quia? Rem nostrum magnam facere, molestias eaque corporis aspernatur velit error commodi odit.
+                        </p>
+                    </li>
+                </ul>
+            
+
+            <div class="controls">
+                <div class="icon">
+                    <img src="play store 4.jpg" >
+                </div>
+                <div class="icon">
+                    <img src="app store.jpg" alt="">
+                </div>
+            </div>
+          </div>
+         </div>
+    </div>
+ </section>
+
+ <section class="services" id="services">
+    <div class="container">
+        <div class="heading">
+            <h2 class="title scroll-b">
+                Our Services
+            </h2>
+            <p class="desc scroll-t">
+                <i class="fa-solid fa-arrow-right"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.eniti saepe nisi nostrum blanditiis odio omnis autem accusamus,
+                 distinctio necessitatibus repellendus?
+            </p>
+        </div>
+        <div class="items">
+            <div class="item scroll-t">
+               <div class="image">
+                <img src="train ticket.jpg" alt="">
+        </div>
+
+           
+        <div class="details">
+            <h3 class="title">Basic Fare Ticket (one-way, round-trip, continuation)</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+            </p>
+            <button class="btn">See all</button>
+        </div>
+    </div>
+        <div class="item scroll-i">
+            <div class="image">
+             <img src="reserved.jpg" alt="">
+     </div>
+     <div class="details">
+         <h3 class="title">Reserved Seat Ticket (for use of Home Liner)</h3>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+             possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+         </p>
+         <button class="btn">See all</button>
+     </div>
+ </div> 
+            <div class="item scroll-r">
+            <div class="image">
+                <img src="reserved 2.jpg" alt="">
+            </div>
+            <div class="details">
+            <h3 class="title">Limited Express Ticket</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+            </p>
+            <button class="btn">See all</button>
+            </div>
+            </div> 
+            <div class="item scroll-r">
+                <div class="image">
+                 <img src="ticket 1.jpg" alt="">
+         </div>
+         <div class="details">
+             <h3 class="title">Group ticket (normal, student, tourist)</h3>
+             <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                 possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+             </p>
+             <button class="btn">See all</button>
+         </div>
+     </div> 
+    
+    
+         
+     </div>
+</div>
+</section>
+
+
+
+
+<section class="reviews" id="reviews">
+    <div class="container">
+        <div class="heading">
+            <h2 class="title scroll-b">
+                Latest Comment 
+            </h2>
+            <p class="desc scroll-b">
+                Our clients what's says?
+            </p>
+        </div>
+        <div class="items">
+            <div class="item scroll-i">
+               <div class="image">
+                <img src="faridah image.jpg" alt="">
+        </div>
+
+           
+        <div class="details">
+            <h3 class="username">Faridah AJ</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+            </p>
+            <div class="stars ">
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons "><i class="fa fa-star"></i></div>
+            
+            </div>
+        </div>
+    </div>
+        <div class="item scroll-r">
+            <div class="image">
+             <img src="nig 2.jpg" alt="">
+     </div>
+     <div class="details">
+         <h3 class="username">Frank John</h3>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+             possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+         </p>
+         <div class="stars ">
+            <div class="icons active"><i class="fa fa-star"></i></div>
+            <div class="icons active"><i class="fa fa-star"></i></div>
+            <div class="icons "><i class="fa fa-star"></i></div>
+        </div>
+        
+     </div>
+ </div> 
+            <div class="item">
+            <div class="image">
+                <img src="nig 3.jpg" alt="" height="">
+            </div>
+            <div class="details">
+            <h3 class="username">Farhan Nuhu</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+            </p>
+            <div class="stars ">
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons "><i class="fa fa-star"></i></div>
+            
+            </div>
+            
+            </div>
+            </div> 
+            <div class="item scroll-r">
+                <div class="image">
+                 <img src="nig 1.jpg" alt="">
+         </div>
+         <div class="details">
+             <h3 class="username">Mark Joe</h3>
+             <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquam repellat iste aliquid, 
+                 possimus nam distinctio nihil id placeat dolorem ullam cum velit explicabo sequi officiis commodi eum harum minima.
+             </p>
+             
+             <div class="stars ">
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons active"><i class="fa fa-star"></i></div>
+                <div class="icons "><i class="fa fa-star"></i></div>
+            </div>
+         </div>
+     </div> 
+    
+       
+         
+     </div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+
+        <div class="items">
+            <div class="item scroll-t">
+                <div class="heading">
+                    <h2 class="title">Contact With Us</h2>
+                    <p class="des">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                         Nulla corrupti distinctio rerum blanditiis cupiditate similique sed officiis architecto dolor aut officia labore nostrum non ad aliquid earum nam, repudiandae id.
+                    </p>
+                    <div class="socials">
+                        <a href="#" class="s-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="s-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="s-link"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" class="s-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="s-link"><i class="fa-brands fa-x-twitter"></i></a>
+        
+        
+        
+                    </div>
+               </div>
+            </div>
+            <div class="map scroll-t" >
+                <img class="map" src="abuja.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <footer class="footer">
+    <div class="container">
+        <div class="items">
+            <div class="item">
+                <div class="head">
+                    <div class="logo">
+                        <i  class="fa-solid fa-train"></i>
+                        <span>Express<strong>Train</strong></span>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="desc">
+                        <p>
+                            Nigeria train station The best to great deal deal in this year
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quo molestiae,
+                             tempore aperiam dignissimos velit nam corporis aspernatur placeat aliquid eligendi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item scroll-t">
+                <div class="head">
+                    <h3>  Quick Link</h3>
+                   
+                </div>
+                <div class="body ">
+                    <ul class="links">
+                        <li><a href="#" class="link">home</a></li>
+                        <li><a href="#services" class="link">services</a></li>
+                        <li><a href="#about" class="link">about</a></li>
+                        <li><a href="#contact" class="link">contact</a></li>
+                        <li><a href="#reviews" class="link">reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item scroll-t">
+                <div class="head">
+                    <h3>Contact Us</h3>
+                   
+                </div>
+                <div class="body">
+                    <ul class="links">
+                        <li>+234 331 2346 77</li>
+                        <li>+234 221 9376 22</li>
+                        <li>@expresstraingmail.com</li>
+                        <li>AB1 Street kubwa, Abuja</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item scroll-t">
+                <div class="head">
+                    <h3>Suscribe Us</h3>
+                   
+                </div>
+                <div class="body">
+                  <form action="" class="form">
+                    <p>
+                        best promotion coming from our email
+                      
+                    </p>
+             
+                    <div class="box">
+                        <input type="email" placeholder="email...">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+      
+
+    </div>
+    <div class="rights scroll-b">
+        <p>All Reserved By @<a href="#"> itcode</a> | 1990-2024</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

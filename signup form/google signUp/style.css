@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #4285f4;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.box{
+    position: relative;
+    max-width: 450px;
+    overflow: hidden;
+    border: 1px solid #dadce0;
+    padding: 50px 30px;
+    border-radius: 8px;
+    font-family: "Barlow", sans-serif;
+    min-height: 435px;
+    
+
+}
+.box_header{
+    height: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.box_header > div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.box_header > .first {
+    opacity: 1;
+    visibility: visible;
+}
+
+.box_title {
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+
+.box_content{
+    overflow: hidden;
+}
+.box_content .second > .line {
+    margin-bottom: 40px;
+}
+.box_subtitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5f6368;
+}
+
+.box_track {
+    display: flex;
+    padding: 6px 0;
+    transition: 0.25s;
+
+
+}
+
+.box_track > div {
+    flex-shrink: 0;
+    flex-grow: 0;
+    transition: 0.25s;
+    width: 100%;
+
+
+}
+.line {
+    position: relative;
+    height: 54px;
+    margin-bottom: 20px;
+    
+}
+
+.line_input {
+    font-family: "Barlow" ,sans-serif;
+    border: 1px solid #dadce0;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+
+}
+
+.line_placeholder{
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 11px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 0 5px;
+    color: #a7a7a7;
+    transition: 0.25s;
+}
+
+.line_input:not([value=""]), .line_input:focus {
+    box-shadow: 0 0 0 1px #4285f4 inset;
+    border-color: #4285f4;
+
+}
+
+.line_input:not([value=""]) + .line_placeholder, .line_input:focus + .line_placeholder{
+    top: -6px;
+    font-size: 12px;
+    transform: translateY(0);
+    color: #4285f4;
+    font-weight: 500;
+
+}
+
+
+.info {
+    color: #5f6368;
+    margin: 30px 0;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button{
+    padding: 10px 25px;
+    border: 0;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: 500;
+    outline: 0;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.button:hover {
+    background-color: #1266f1;
+}
+
+.user {
+    border: 1px solid #dadce0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 500;
+    height: 30px;
+
+
+}
+
+.user_avatar {
+    height: 22px;
+    margin-right: 5px;
+
+
+}
+
+.user > svg {
+    margin-left: 3px;
+}
+
+.user:hover {
+    background-color: #f2f2f2;
+}
+
+.box.second-step .box_header > .first {
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.box.second-step  .box_header > .second {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.box.second-step .box_track {
+    transform: translate3d(-100%, 0, 0);
+}
+
+.box.box.second-step .box_track > .second{
+    opacity: 1;
+}
+
+.box.box.second-step .box_track > .first {
+    opacity: 0;
+}
+
+.box.progress > *:not(.progress-bar) {
+    opacity: 0.5;
+    pointer-events: none;
+
+}
+
+.box.progress .progress-bar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 5px;
+    background-color: #ddd;
+}
+
+.box.progress .progress{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 30%;
+    background-color: #4285f4;
+    -webkit-animation-name: move;
+         animation: move;
+    -moz-animation-duration: 1.2s;
+         animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+         animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes move {
+    0% {
+        transform: translateX(-100%);
+        width: 80%;
+
+    }
+    100% {
+        transform: translateX(500px);
+        width: 10%;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-100%);
+        width: 80%;
+
+    }
+    100% {
+        transform: translateX(500px);
+        width: 10%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:460px) {
+    .box {
+        width: 90%;
+    }
+}

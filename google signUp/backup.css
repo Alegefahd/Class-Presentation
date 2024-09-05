@@ -1,0 +1,9 @@
+<div class="line">
+<input class="line_input" type="password" onkeyup="this.setAttribute('value', this.value);" value>
+<span class="line_placeholder">Enter your password</span>
+</div>
+<div class="actions">
+<a href="#">Forget Password</a>
+<button class="button toggle">Next</button>
+</div>
+
